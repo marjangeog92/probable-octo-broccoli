@@ -1,0 +1,146 @@
+body {
+  color: white;
+  background-color: deeppink;
+  
+}
+
+img {
+  border-radius: 2vh;
+  border-color: #F53F62; 
+  border-style: solid;
+  border-width: thick
+}
+
+p {
+  color: white;
+}
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+    font-size:3vh;
+}
+
+#mobile-device {
+  border-style: solid;
+  border-width: thick;
+  height: 90vh;
+  width: 50vh;
+  border-radius: 10vh;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top-panel{
+  background-color: #e2e2e2;
+  height: 12vh;
+  border-top-left-radius: 9vh;
+  border-top-right-radius: 9vh;
+  display: flex;
+}
+
+#runScreen {
+    display:flex;
+    flex-direction:column;
+    gap:2vh;
+}
+
+#display{
+  background-color: black;
+  height: 66vh;
+  display: flex;
+  flex-wrap:nowrap;
+  
+}
+
+#bottom-panel {
+  background-color: #e2e2e2;
+  height: 12vh;
+  border-bottom-left-radius: 9vh;
+  border-bottom-right-radius: 9vh;
+  display: flex;
+}
+
+#checkQuiz{
+    margin:auto;
+    /*padding:-25px;*/
+    color:pink;
+}
+
+#quizScore{
+    color:white;
+}
+
+a {
+    color:white;
+}
+
+#home-title{
+  text-align: center;
+  font-size: 10vh;
+}
+
+#run-text{
+  font-size: 3vh;
+}
+
+#images {
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 20vh;
+}
+
+#homeScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 66vh;
+  
+}
+
+#camera {
+  background-color: black;
+  border-radius: 50%;
+  height: 3vh;
+  width: 3vh;
+  margin: auto;
+
+}
+
+#homeButton {
+  background-color: dimgray;
+  border-radius: 50%;
+  height: 6vh;
+  width: 6vh;
+  margin: auto;
+}
+
+.backButton{
+    height: 2vh;
+  background-color: hotpink;
+  padding: 2vh;
+  border-radius: 1vh;
+  text-align: center;
+  width: 7vh;
+  align-self: flex-end;
+}
+
+.button{
+  height: 2vh;
+  background-color: rebeccapurple;
+  padding: 2vh;
+  border-radius: 1vh;
+  text-align: center;
+}
+
+.label {
+  text-align: center;
+}
